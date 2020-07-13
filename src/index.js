@@ -31,7 +31,6 @@ function stopParty() {
 }
 
 function partyButtonsStyle(enabledBut, disabledBut) {
-  console.log('click');
   enabledBut.setAttribute('disabled', 'disabled');
   disabledBut.removeAttribute('disabled');
   if (enabledBut === refs.buttonStart) {
